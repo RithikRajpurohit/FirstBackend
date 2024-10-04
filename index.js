@@ -43,7 +43,7 @@ const DATA_GIT =
 
 app.get("/",(req,res)=>
 {
-    res.send("Welcome to the website of Vetri vel ur in my First server  ok after the link type like this https://firstbackend-l483.onrender.com/Boys ");
+    res.send("Welcome to the website of rithik  ur in my First server , if u are vetri vel || prithviraman type like this or search like this  https://firstbackend-l483.onrender.com/Boys  ");
 })
 
 app.get("/Boys",(req,res)=>{
