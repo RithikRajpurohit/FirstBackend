@@ -43,14 +43,14 @@ const DATA_GIT =
 
 app.get("/",(req,res)=>
 {
-    res.send("Welcome to the website of Rithik");
+    res.send("Welcome to the website of Vetri vel ur in my First server  ok after the link type like this https://firstbackend-l483.onrender.com/Boys ");
 })
 
-app.get("/Login",(req,res)=>{
-    res.send('<h1>Click on the button</h1>')
+app.get("/Boys",(req,res)=>{
+    res.send('<h1>Sorry but this only work for boys not for girls  ok now type https://firstbackend-l483.onrender.com/Pritviram </h1>')
 })
-app.get("/Twitter",(req,res)=>{
-    res.send('<h1>Now ur in twitter </h1>')
+app.get("/Pritviram",(req,res)=>{
+    res.send('<h1> Prithviram you Stupid nai , first stand up 🤡🤡 </h1>')
 })
 app.get("/Github",(req,res)=>{
     res.json(DATA_GIT)
